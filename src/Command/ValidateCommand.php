@@ -96,7 +96,7 @@ class ValidateCommand extends Command
      */
     private function getCommits(RepositoryInterface $repository, InputInterface $input): array
     {
-        $firstCommit = (string) $input->getArgument('begin');
+        $firstCommit = $input->getArgument('begin');
         /**
          * @var string|null $lastCommit
          */
