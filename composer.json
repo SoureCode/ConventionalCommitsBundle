@@ -2,13 +2,7 @@
     "name": "sourecode/conventional-commits-bundle",
     "type": "symfony-bundle",
     "description": "Conventional commits integration into symfony",
-    "keywords": [
-        "symfony",
-        "convention",
-        "commits",
-        "git",
-        "conventional-commits"
-    ],
+    "keywords": ["symfony", "convention", "commits", "git", "conventional-commits"],
     "license": "MIT",
     "authors": [
         {
@@ -33,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-            "SoureCode\\Bundle\\ConventionalCommits\\": "./src"
+            "SoureCode\\Bundle\\ConventionalCommits\\": "src"
         },
         "exclude-from-classmap": [
             "/tests/"
@@ -41,7 +35,12 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "SoureCode\\Bundle\\ConventionalCommits\\Tests\\": "./tests"
+            "SoureCode\\Bundle\\ConventionalCommits\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
         }
     },
     "minimum-stability": "dev"
