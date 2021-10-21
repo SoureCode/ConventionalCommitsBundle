@@ -18,17 +18,18 @@
     ],
     "require": {
         "php": ">=8.0",
-        "symfony/http-kernel": "^5.3 || ^6.0",
-        "symfony/dependency-injection": "^5.3 || ^6.0",
-        "symfony/validator": "^5.3 || ^6.0",
+        "sourecode/conventional-commits": "^0.1",
+        "sourecode/git": "^0.1",
         "symfony/config": "^5.3 || ^6.0",
         "symfony/console": "^5.3 || ^6.0",
-        "symfony/process": "^5.3 || ^6.0",
-        "sourecode/git": "dev-master",
-        "sourecode/conventional-commits": "dev-master"
+        "symfony/dependency-injection": "^5.3 || ^6.0",
+        "symfony/filesystem": "^5.3 || ^6.0",
+        "symfony/finder": "^5.3 || ^6.0",
+        "symfony/http-kernel": "^5.3 || ^6.0",
+        "symfony/validator": "^5.3 || ^6.0"
     },
     "require-dev": {
-        "nyholm/symfony-bundle-test": "dev-master"
+        "symfony/framework-bundle": "^5.3 || ^6.0"
     },
     "autoload": {
         "psr-4": {
