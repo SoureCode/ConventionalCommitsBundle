@@ -12,8 +12,8 @@
     ],
     "require": {
         "php": ">=8.0",
-        "sourecode/conventional-commits": "^0.1",
-        "sourecode/git": "^0.1",
+        "sourecode/conventional-commits": "dev-master",
+        "sourecode/git": "dev-master",
         "symfony/config": "^5.3 || ^6.0",
         "symfony/console": "^5.3 || ^6.0",
         "symfony/dependency-injection": "^5.3 || ^6.0",
